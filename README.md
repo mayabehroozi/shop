@@ -2,7 +2,17 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+#shopp with Next.Js
+this project coded by me:)
+[Demo Project](https://shop-3apv-mayabehroozis-projects.vercel.app/)
+
+ Technologies Used - Next.Js , Ant Design, css5
+
+
+ 
+ How to reach me : with my [instagram](https://www.instagram.com/mayacodingjourneyy) and 
+[linkedin](https://www.linkedin.com/in/maya-behroozi-5b27a425b/) 
+
 
 ```bash
 npm run dev
