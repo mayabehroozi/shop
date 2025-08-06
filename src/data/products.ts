@@ -5,48 +5,48 @@ const products = [
     title: '724',
     subtitle: 'Duo Eau de parfum et crème parfumante mains',
     price: 260 ,
-    imageUrl: '/images/card1-1.PNG',
-    hoverImageUrl: '/images/card1-2.PNG',
+    imageUrl: '/images/card1-1.png',
+    hoverImageUrl: '/images/card1-2.png',
     slug: "gentle-fluidity",
   },
   {
     title: '725',
     subtitle: 'Eau de parfum Floral',
     price: 270,
-    imageUrl: '/images/card2-1.PNG',
-    hoverImageUrl: '/images/card2-2.PNG',
+    imageUrl: '/images/card2-1.png',
+    hoverImageUrl: '/images/card2-2.png',
     slug: "eau-floral-728"
   },
   {
     title: '726',
     subtitle: 'Scented hand cream',
     price: 150,
-    imageUrl: '/images/card3-1.PNG',
-    hoverImageUrl: '/images/card3-2.PNG',
+    imageUrl: '/images/card3-1.png',
+    hoverImageUrl: '/images/card3-2.png',
    slug: "eau-floral-727"
   },
   {
     title: '727',
     subtitle: 'Luxury perfume',
     price: 300,
-    imageUrl: '/images/card4-1.PNG',
-    hoverImageUrl: '/images/card4-2.PNG',
+    imageUrl: '/images/card4-1.png',
+    hoverImageUrl: '/images/card4-2.png',
    slug: "eau-floral-726"
   },
   {
     title: '728',
     subtitle: 'Fresh aroma',
     price: 220,
-    imageUrl: '/images/card5-1.PNG',
-    hoverImageUrl: '/images/card5-2.PNG',
+    imageUrl: '/images/card5-1.png',
+    hoverImageUrl: '/images/card5-2.png',
    slug: "eau-floral-725"
   },
   {
     title: '729',
     subtitle: 'Exquisite scent',
     price: 280,
-    imageUrl: '/images/card6-1.PNG',
-    hoverImageUrl: '/images/card6-2.PNG',
+    imageUrl: '/images/card6-1.png',
+    hoverImageUrl: '/images/card6-2.png',
    slug: "duo-eau-parfum-724"
   },
 ];
