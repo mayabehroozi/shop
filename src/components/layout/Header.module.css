@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 0 5rem;
+  height: 100px;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  flex: 1;
+  display: flex !important;
+  justify-content: center;
+  border-bottom: none !important;
+  background: transparent !important;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+.logoSvg {
+  height: 40px;
+  width: auto;
+}
+
+/* استایل‌های ant-menu item */
+.menu :global(.ant-menu-item) {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.menu :global(.ant-menu-item-selected),
+.menu :global(.ant-menu-item-active),
+.menu :global(.ant-menu-item:hover),
+.menu :global(.ant-menu-item-active:hover) {
+  border-bottom: 2px solid #ac9270 !important;
+  color: #ac9270 !important;
+  background: transparent !important;
+}
+
+.menu :global(.ant-menu-item a),
+.menu :global(.ant-menu-item-selected a),
+.menu :global(.ant-menu-item:hover a) {
+  color: rgb(101 101 106) !important;
+}
+
+.menu :global(.ant-menu-item::after) {
+  border-bottom: none !important;
+}
+
+/* ریسپانسیو موبایل */
+@media (max-width: 768px) {
+  .menu {
+    display: none !important;
+  }
+/* کلاس عمومی برای آیکون‌ها */
+.icon {
+  cursor: pointer;
+   color: rgb(101 101 106) !important;
+ 
+}
+
+/* مخفی کردن آیکون‌های خاص در موبایل */
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none !important;
+  }
+}
+
+  .menuButton {
+    display: inline-block !important;
+  }
+}
+
+/* دکمه منو در دسکتاپ مخفی */
+.menuButton {
+  display: none;
+}
+/* ////////////// */

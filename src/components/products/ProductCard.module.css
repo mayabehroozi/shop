@@ -1,0 +1,107 @@
+.card {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-bottom: 4.5rem; /* فضای بیشتر برای دکمه */
+}
+
+.card:hover {
+  border: 1px solid #535359;
+  transform: translateY(-4px);
+}
+
+.imageContainer {
+  position: relative;
+  
+  background-color: #f8f8f8;
+  width: 100%;
+ height: 350px;
+  overflow: hidden;
+ 
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: opacity 0.4s ease;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  
+ 
+}
+
+
+
+.mainImage {
+  opacity: 1;
+  z-index: 1;
+}
+
+.hoverImage {
+  opacity: 0;
+  z-index: 2;
+}
+
+.card:hover .mainImage {
+  opacity: 0;
+}
+
+.card:hover .hoverImage {
+  opacity: 1;
+}
+
+.info {
+  padding: 1rem 0 0.5rem;
+  position: relative;
+  z-index: 3;
+}
+
+.info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.price {
+  font-size: 14px;
+  color: #888;
+}
+
+/* دکمه افزودن به سبد با بک‌گراند جدید و جای بهتر */
+.addToCartButton {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 2rem);
+  padding: 0.6rem 1rem;
+  background-color: #f5f5f5; /* تغییر رنگ بک‌گراند */
+  border: 1px solid #535359;
+  color: #535359;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 4px;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.card:hover .addToCartButton {
+  opacity: 1;
+  pointer-events: auto;
+}

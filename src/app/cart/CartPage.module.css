@@ -1,0 +1,125 @@
+.cartPage {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.title {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+
+
+.cartList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.imageWrapper {
+  flex: 0 0 auto;
+}
+
+.details {
+  flex: 1;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-top: 0.25rem;
+}
+
+.loyalty {
+  margin-top: 1rem;
+  font-size: 13px;
+  color: #888;
+}
+
+.loyalty span {
+  font-weight: bold;
+  color: #000;
+}
+
+.quantityPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.quantityControls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.removeBtn {
+  font-size: 13px;
+}
+
+
+.checkoutWrapper {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.removeBtn {
+  margin-top: 10px;
+  color: #535359 !important;
+  border: 1px solid #535359 !important;
+  background-color: transparent !important;
+  width: 100%;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.removeBtn:hover,
+.removeBtn:focus {
+  background-color: #6e6e71 !important; /* کمی روشن‌تر از #535359 */
+  color: white !important;
+  border-color: #6e6e71 !important;
+}
+/* ///// */
+.actions {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.actions button:hover {
+  opacity: 0.9;
+}

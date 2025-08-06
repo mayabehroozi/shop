@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+body {
+  font-family: 'Recol﻿eta', serif;
+}
+.product-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr); /* موبایل 2 ستون */
+  /* max-width: 1060px; */
+  margin: 2rem auto;
+  padding: 0 1rem;
+  
+}
+
+
+@media (min-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr); /* دسکتاپ 3 ستون */
+  }
+}
+
+
+.responsivePadding {
+  padding-left: 60px;
+}
+
+@media (max-width: 768px) {
+  .responsivePadding {
+    padding-left: 0;
+  }
+}
