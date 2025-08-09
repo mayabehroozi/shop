@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 #shopp with Next.Js
 this project coded by me:)
-[Demo Project](https://shop-3apv-mayabehroozis-projects.vercel.app/)
+[Demo Project](https://shop-p95g.vercel.app/)
 
 ![Image](https://github.com/user-attachments/assets/b698cfba-6fa3-43c0-a27d-c86ada672afe)
 ![Image](https://github.com/user-attachments/assets/27d5986d-2f6e-4dd8-8b55-6dd6c83cbc77)
